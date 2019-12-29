@@ -18,7 +18,6 @@ export PATH
 # User specific aliases and functions
 export PS1="\[\033[38;5;1m\]\u\[$(tput sgr0)\]\[\033[38;5;6m\]@\[$(tput sgr0)\]\[\033[38;5;1m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\]\[\033[38;5;6m\][\w]:\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
 
-alias 'dnf install'='dnf install -y'
 alias cls='clear'
 alias startup='systemd-analyze blame'
 
